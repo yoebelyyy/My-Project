@@ -1,0 +1,130 @@
+[19-Jul-2026 09:11:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'field list' in C:\xampp\htdocs\smartecotrack\db_connect.php:283
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(283): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\smartecotrack\register.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 283
+[19-Jul-2026 09:16:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'field list' in C:\xampp\htdocs\smartecotrack\db_connect.php:300
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(300): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\smartecotrack\register.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 300
+[19-Jul-2026 09:40:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'city' in 'field list' in C:\xampp\htdocs\smartecotrack\db_connect.php:300
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(300): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 300
+[19-Jul-2026 10:49:03 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:16 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:17 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\modules\emergency_contacts.php(1): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:18 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\modules\emergency_contacts.php(1): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:19 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\modules\quiz.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:35 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:37 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:37 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:44 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:47 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[19-Jul-2026 10:49:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:14
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(14): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_XX...')
+#1 C:\xampp\htdocs\smartecotrack\register.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 14
+[23-Aug-2026 14:24:27 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15
+[23-Aug-2026 14:24:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:15
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(15): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_sm...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15
+[23-Aug-2026 18:05:58 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15
+[23-Aug-2026 18:05:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:15
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(15): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_sm...')
+#1 C:\xampp\htdocs\smartecotrack\register.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15
+[30-Sep-2026 21:27:28 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15
+[30-Sep-2026 21:27:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sql311.infinityfree.com failed: No such host is known.  in C:\xampp\htdocs\smartecotrack\db_connect.php:15
+Stack trace:
+#0 C:\xampp\htdocs\smartecotrack\db_connect.php(15): mysqli_connect('sql311.infinity...', 'if0_42444965', Object(SensitiveParameterValue), 'if0_42444965_sm...')
+#1 C:\xampp\htdocs\smartecotrack\login.php(2): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\smartecotrack\db_connect.php on line 15

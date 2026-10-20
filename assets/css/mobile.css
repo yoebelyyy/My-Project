@@ -1,0 +1,189 @@
+/* Mobile-Specific Styles for SmartEcoTrack */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .hero-section {
+        padding: 40px 15px;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-header {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .stat-card i {
+        font-size: 2rem;
+    }
+
+    .stat-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .incident-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container {
+        height: 300px;
+    }
+
+    .chat-container {
+        max-width: 100%;
+        bottom: 0;
+        right: 0;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .form-control {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .option-btn {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    .leaderboard-item {
+        padding: 10px;
+    }
+
+    .leaderboard-rank {
+        font-size: 1.5rem;
+        min-width: 40px;
+    }
+
+    /* Bottom Navigation for Mobile */
+    .mobile-bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--leaf-gradient);
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
+        z-index: 999;
+    }
+
+    .mobile-bottom-nav a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 0.8rem;
+        flex: 1;
+    }
+
+    .mobile-bottom-nav i {
+        display: block;
+        font-size: 1.3rem;
+        margin-bottom: 3px;
+    }
+
+    .main-content {
+        padding-bottom: 70px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .incident-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tips-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Touch-friendly adjustments */
+@media (hover: none) {
+    .btn, .option-btn, .nav-link {
+        padding: 12px 20px;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .incident-card:hover {
+        transform: none;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(135deg, #1B4D3E 0%, #2D6A4F 50%, #1B5E20 100%);
+        color: #E8F5E9;
+    }
+
+    .card {
+        background: rgba(27, 77, 62, 0.9);
+        border-color: rgba(76, 175, 80, 0.3);
+    }
+
+    .card-body {
+        color: #E8F5E9;
+    }
+
+    .stat-card {
+        background: rgba(27, 77, 62, 0.9);
+    }
+
+    .form-control {
+        background: rgba(27, 77, 62, 0.8);
+        color: #E8F5E9;
+        border-color: #40916C;
+    }
+
+    .form-control::placeholder {
+        color: #A5D6A7;
+    }
+}
